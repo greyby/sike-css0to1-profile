@@ -28,6 +28,17 @@ body {
   margin: 0 auto;
 }
 
+.main-header {
+  background-image: url(../img/banner.jpg);
+  text-align: center;
+}
+
+.main-header__avatar {
+  display: block;
+  width: 13%;
+  margin: 0 auto;
+}
+
 /* HTML5 display definitions
    ========================================================================== */
 
