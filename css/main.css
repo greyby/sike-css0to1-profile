@@ -129,8 +129,14 @@ ul.whatido__skill-list {
 }
 
 .whatido__skill-list {
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin-top: 60px;
+}
+
+.clearfix:after {
+    content:"";
+    display: table;
+    clear:both;
 }
 
 .whatido__skill-list .whatido__skill {
