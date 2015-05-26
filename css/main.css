@@ -90,7 +90,17 @@ ul.navigation li {
 
 .info-section {
     background-color: #fff;
-    padding: 1px;
+    padding: 30px 60px;
+}
+
+.info-section header h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.info-section__description {
+    font-style: italic;
 }
 
 ul.whatido__skill-list {
@@ -98,19 +108,39 @@ ul.whatido__skill-list {
 }
 
 .whatido__skill--code {
+    width: 30%;
   background-image: url(../img/skill-code.png);
   background-repeat: no-repeat;
   background-position: center top;
 }
 
 .whatido__skill--design {
+    width: 30%;
   background-image: url(../img/skill-design.png);
   background-repeat: no-repeat;
   background-position: center top;
 }
 
 .whatido__skill--product {
+    width: 30%;
   background-image: url(../img/skill-product.png);
   background-repeat: no-repeat;
   background-position: center top;
 }
+
+.whatido__skill-list {
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.whatido__skill-list .whatido__skill {
+    float: left;
+}
+
+.whatido__skill {
+    height: 100px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+
