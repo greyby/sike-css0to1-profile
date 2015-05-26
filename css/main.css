@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav {
     background-color: #333;
     text-align: center;
+
 }
 
 .main-nav ul li {
@@ -85,4 +86,31 @@ ul.navigation {
 
 ul.navigation li {
     display: inline-block;
+}
+
+.info-section {
+    background-color: #fff;
+    padding: 1px;
+}
+
+ul.whatido__skill-list {
+    list-style: none;
+}
+
+.whatido__skill--code {
+  background-image: url(../img/skill-code.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.whatido__skill--design {
+  background-image: url(../img/skill-design.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.whatido__skill--product {
+  background-image: url(../img/skill-product.png);
+  background-repeat: no-repeat;
+  background-position: center top;
 }
