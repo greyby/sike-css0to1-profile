@@ -41,6 +41,8 @@ body {
   display: block;
   width: 13%;
   margin: 0 auto;
+  box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+  border-radius: 999px;
 }
 
 /* HTML5 display definitions
