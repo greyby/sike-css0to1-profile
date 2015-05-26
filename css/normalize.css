@@ -23,6 +23,11 @@ body {
   background-position: center;
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
 /* HTML5 display definitions
    ========================================================================== */
 
