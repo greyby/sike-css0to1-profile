@@ -43,6 +43,16 @@ h6
     padding-top: 80px;
 }
 
+@media only screen and (max-width : 480px)
+{
+    .container
+    {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+}
+
 .main-header
 {
     padding: 1px;
@@ -57,7 +67,7 @@ h6
 {
     display: block;
 
-    width: 15%;
+    width: 140px;
     margin: 0 auto;
     margin-top: -70px;
     margin-bottom: 10px;
@@ -75,7 +85,16 @@ h6
 
     margin-bottom: 20px;
 
+    color: #fff;
     text-shadow: 0 1px rgba(0, 0, 0, .3);
+}
+
+@media only screen and (max-width : 480px)
+{
+    .main-header h1
+    {
+        font-size: 32px;
+    }
 }
 
 .main-nav
@@ -107,14 +126,24 @@ h6
 ul.navigation
 {
     margin: 0;
-    padding: 0;
+    padding: 1px;
 
     list-style: none;
+
+    text-align: center;
 }
 
 ul.navigation li
 {
     display: inline-block;
+}
+
+@media only screen and (max-width : 480px)
+{
+    ul.navigation li
+    {
+        display: block;
+    }
 }
 
 .info-section
@@ -302,26 +331,33 @@ ul.get-in-touch__list li img
 
 
 
-.form-group {
+.form-group
+{
     position: relative;
+
     width: 40%;
     margin: 0 30%;
     padding: 8px;
     /*margin: 8px;*/
 }
 
-.label-normal {
+.label-normal
+{
     position: absolute;
     top: 8px;
     left: -100%;
+
     width: 100%;
+
     text-align: right;
 }
 
-.input-normal {
+.input-normal
+{
     width: 100%;
 }
 
-.btn-normal {
+.btn-normal
+{
     width: 40%;
 }
