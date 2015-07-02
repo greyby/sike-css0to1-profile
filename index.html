@@ -160,16 +160,22 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
 
       <section class="info-section contact">
         <header>
-          <h2>Or...Leave a Message</h2>
+          <h2 class="header_underline">Or...Leave a Message</h2>
         </header>
         <form action="">
-          <label for="name">Name</label>
-          <input name="name" id="name" type="text">
-          <label for="email">Email</label>
-          <input name="email" id="email" type="email">
-          <label for="message">Message</label>
-          <textarea name="message" id="message"></textarea>
-          <button type="submit">Submit</button>
+        <div class="form-group">
+          <label for="name" class="label-normal">Name</label>
+          <input name="name" id="name" type="text" class="input-normal">
+          </div>
+          <div class="form-group">
+          <label for="email" class="label-normal">Email</label>
+          <input name="email" id="email" type="email" class="input-normal">
+          </div>
+          <div class="form-group">
+          <label for="message" class="label-normal">Message</label>
+          <textarea name="message" id="message" class="input-normal"></textarea>
+          </div>
+          <button type="submit" class="btn-normal">Submit</button>
         </form>
       </section>
 
