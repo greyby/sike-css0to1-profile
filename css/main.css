@@ -144,6 +144,7 @@ ul.navigation li
     {
         display: block;
     }
+
 }
 
 .info-section
@@ -154,6 +155,19 @@ ul.navigation li
 
     background-color: #fff;
 }
+
+@media only screen and (max-width : 480px)
+{
+    .info-section
+    {
+        padding: 10px;
+    }
+
+}
+
+
+
+
 
 .info-section header h2
 {
@@ -206,6 +220,16 @@ ul.whatido__skill-list
     padding-bottom: 10px;
 
     text-align: center;
+}
+
+@media only screen and (max-width : 480px)
+{
+    .whatido__skill
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
 }
 
 .whatido__skill--code
