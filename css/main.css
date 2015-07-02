@@ -144,7 +144,6 @@ ul.navigation li
     {
         display: block;
     }
-
 }
 
 .info-section
@@ -161,8 +160,9 @@ ul.navigation li
     .info-section
     {
         padding: 10px;
-    }
 
+        text-align: center;
+    }
 }
 
 
@@ -229,7 +229,6 @@ ul.whatido__skill-list
         width: 100%;
         margin-bottom: 40px;
     }
-
 }
 
 .whatido__skill--code
@@ -273,6 +272,18 @@ ul.education-experience__list li
     width: 180px;
 }
 
+@media only screen and (max-width : 480px)
+{
+    .education-experience__list li img
+    {
+        display: block;
+        float: none;
+
+        width: 180px;
+        margin: 0 auto;
+    }
+}
+
 .education-experience__list__description
 {
     overflow: hidden;
@@ -303,6 +314,14 @@ ul.photos__list li
     padding: 10px;
 }
 
+@media only screen and (max-width : 480px)
+{
+    ul.photos__list li
+    {
+        width: 100%;
+    }
+}
+
 ul.photos__list li img
 {
     width: 100%;
@@ -312,7 +331,7 @@ ul.get-in-touch__list
 {
     overflow: hidden;
 
-    padding: 0 auto;
+    padding: 0;
 
     list-style: none;
 
@@ -322,12 +341,21 @@ ul.get-in-touch__list
 ul.get-in-touch__list li
 {
     display: inline-block;
-    float: center;
     overflow: hidden;
 
     width: 20%;
     padding: 8px;
 }
+
+@media only screen and (max-width : 480px)
+{
+    ul.get-in-touch__list li
+    {
+        width: 45%;
+        padding: 0;
+    }
+}
+
 
 ul.get-in-touch__list li img
 {
@@ -376,6 +404,16 @@ ul.get-in-touch__list li img
     text-align: right;
 }
 
+@media only screen and (max-width : 480px)
+{
+    .label-normal
+    {
+        position: static;
+
+    }
+}
+
+
 .input-normal
 {
     width: 100%;
@@ -384,4 +422,25 @@ ul.get-in-touch__list li img
 .btn-normal
 {
     width: 40%;
+}
+
+@media only screen and (max-width : 480px)
+{
+    .form-group
+    {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+
+    }
+
+    .btn-normal
+    {
+        width: 100%;
+    }
+
+    .label-normal
+    {
+        text-align: left;
+    }
 }
