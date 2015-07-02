@@ -2,7 +2,7 @@
 HTML5. Use tags like <article>, <section>, etc.
 See: http://www.sitepoint.com/web-foundations/doctypes/
 -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -29,10 +29,6 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
     Our own stylesheet.
     -->
     <link rel="stylesheet" href="css/main.css">
-
-    <!--
-    Google Fonts
-    -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -54,20 +50,19 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
 
       <section class="info-section whatido">
         <header>
-
-          <h2 class="whatido_header">What I Do</h2>
+          <h2 class="header_underline">What I Do</h2>
           <p class="info-section__description">I'm Teng. I design and develop things on the web. Oh, and I like curry.</p>
         </header>
         <ul class="whatido__skill-list clearfix">
-          <li class="whatido__skill whatido__skill--code ">
+          <li class="whatido__skill whatido__skill--code">
             <h3>Code</h3>
             <p>I like building things on the web. I've built games, tools, and web apps.</p>
           </li>
-          <li class="whatido__skill whatido__skill--design ">
+          <li class="whatido__skill whatido__skill--design">
             <h3>Design / UX</h3>
             <p>I like creating happiness by making things look good and work well.</p>
           </li>
-          <li class="whatido__skill whatido__skill--product ">
+          <li class="whatido__skill whatido__skill--product">
             <h3>Product</h3>
             <p>I like taking products from idea to reality to users and beyond!</p>
           </li>
@@ -76,33 +71,39 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
 
       <section class="info-section education-experience">
         <header>
-          <h2>Education &amp; Experience</h2>
+          <h2>Education <span>&amp;</span> Experience</h2>
         </header>
         <ul class="education-experience__list">
           <li>
             <img src="img/strikingly-logo.png" alt="Strikingly">
-            <h3>Strikingly</h3>
-            <p class="education-experience__title">Cofounder, 2012 - Present</p>
-            <p class="education-experience__description">Strikingly is a website builder that's simple, beautiful, and fun. And perfect for the age of mobile. I'm in charge of UI/UX and front-end.</p>
+            <div class="education-experience__list__description">
+              <h3>Strikingly</h3>
+              <p class="education-experience__title">Cofounder, 2012 - Present</p>
+              <p class="education-experience__description">Strikingly is a website builder that's simple, beautiful, and fun. And perfect for the age of mobile. I'm in charge of UI/UX and front-end.</p>
+            </div>
           </li>
           <li>
             <img src="img/echo-rocket.jpg" alt="Echo Rocket">
+            <div class="education-experience__list__description">
             <h3>Freelance Web/Game Developer</h3>
             <p class="education-experience__title">2007 - 2012</p>
             <p class="education-experience__description">EchoRocket was my one-man Flash game studio and web development/design consultancy. I built Spinblaster, Block Knocker, CampusAmp, HireBrite, and more!</p>
+            </div>
           </li>
           <li>
             <img src="img/u-of-chicago.jpg" alt="">
+            <div class="education-experience__list__description">
             <h3>University of Chicago</h3>
             <p class="education-experience__title">BA Economics, 2008-2012</p>
             <p class="education-experience__description">Studying the finer points of firms, markets, finance, decision theory, and supply and demand.</p>
+            </div>
           </li>
         </ul>
       </section>
 
       <section class="info-section photos">
         <header>
-          <h2>Photos</h2>
+          <h2 class="header_underline">Photos</h2>
           <p class="info-section__description">Some pics from my travels!</p>
         </header>
         <ul class="photos__list">
@@ -148,11 +149,11 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
           </li>
           <li>
             <img src="img/linkedin-icon.png" alt="">
-            <p>Twitter</p>
+            <p>LinkedIn</p>
           </li>
           <li>
             <img src="img/email-icon.png" alt="">
-            <p>Twitter</p>
+            <p>Email</p>
           </li>
         </ul>
       </section>
@@ -174,7 +175,7 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
 
     </div>
 
-
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.useso.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400' rel='stylesheet' type='text/css'> -->
   </body>
 </html>
