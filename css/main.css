@@ -254,3 +254,24 @@ ul.photos__list li img
 {
     width: 100%;
 }
+
+ul.get-in-touch__list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+ul.get-in-touch__list li{
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    width: 25%;
+    padding: 10px;
+}
+
+ul.get-in-touch__list li img
+{
+    width: 100%;
+}
