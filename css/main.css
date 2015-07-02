@@ -257,18 +257,17 @@ ul.photos__list li img
 
 ul.get-in-touch__list {
     overflow: hidden;
-    margin: 0;
-    padding: 0;
-
+    padding: 0 auto;
+    text-align: center;
     list-style: none;
 }
 
 ul.get-in-touch__list li{
     display: inline-block;
-    float: left;
+    float: center;
     overflow: hidden;
-    width: 25%;
-    padding: 10px;
+    width: 20%;
+    padding: 8px;
 }
 
 ul.get-in-touch__list li img
